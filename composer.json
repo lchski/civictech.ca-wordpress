@@ -69,6 +69,7 @@
       ]
     },
     "installer-paths": {
+      "web/wp-content/mu-plugins/{$name}/": ["wpackagist-plugin/wp-native-php-sessions"],
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]

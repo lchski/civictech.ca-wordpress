@@ -735,28 +735,6 @@
         "homepage": "https://wordpress.org/plugins/wp-math-captcha/"
     },
     {
-        "name": "wpackagist-plugin/wp-native-php-sessions",
-        "version": "0.6.2",
-        "version_normalized": "0.6.2.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-            "reference": "tags/0.6.2"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.2.zip",
-            "reference": "tags/0.6.2",
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
-    },
-    {
         "name": "wpackagist-theme/zerif-lite",
         "version": "1.8.5.32",
         "version_normalized": "1.8.5.32",
@@ -777,5 +755,27 @@
         "type": "wordpress-theme",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/themes/zerif-lite/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-native-php-sessions",
+        "version": "0.6.4",
+        "version_normalized": "0.6.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
+            "reference": "tags/0.6.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
     }
 ]
