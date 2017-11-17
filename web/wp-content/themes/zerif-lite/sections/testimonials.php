@@ -1,67 +1,1 @@
-<?php
-/**
- * Testimonials section
- *
- * @package zerif-lite
- */
-
-zerif_before_testimonials_trigger();
-
-echo '<section class="testimonial" id="testimonials">';
-
-	zerif_top_testimonials_trigger();
-
-	echo '<div class="container">';
-
-		echo '<div class="section-header">';
-
-			/* Title */
-			zerif_testimonials_header_title_trigger();
-
-			/* Subtitle */
-			zerif_testimonials_header_subtitle_trigger();
-
-		echo '</div>';
-
-		echo '<div class="row" data-scrollreveal="enter right after 0s over 1s">';
-
-			echo '<div class="col-md-12">';
-
-				$pinterest_style                    = '';
-				$zerif_testimonials_pinterest_style = get_theme_mod( 'zerif_testimonials_pinterest_style' );
-if ( isset( $zerif_testimonials_pinterest_style ) && $zerif_testimonials_pinterest_style != 0 ) {
-	$pinterest_style = 'testimonial-masonry';
-}
-
-				echo '<div id="client-feedbacks" class="owl-carousel owl-theme ' . $pinterest_style . ' ">';
-
-if ( is_active_sidebar( 'sidebar-testimonials' ) ) {
-
-	dynamic_sidebar( 'sidebar-testimonials' );
-
-} elseif ( current_user_can( 'edit_theme_options' ) ) {
-
-	if ( is_customize_preview() ) {
-		/* translators: Testimonials section */
-		printf( __( 'Add widgets in this area by going to the %s', 'zerif-lite' ), __( 'Testimonials section', 'zerif-lite' ) );
-	} else {
-		/* translators: Testimonials section link in customizer */
-		printf( __( 'Add widgets in this area by going to the %s', 'zerif-lite' ), sprintf( '<a href="%1$s" class="zerif-default-links">%2$s</a>', esc_url( admin_url( 'customize.php?autofocus&#91;section&#93;=sidebar-widgets-sidebar-testimonials' ) ), __( 'Testimonials section', 'zerif-lite' ) ) );
-	}
-}
-
-				echo '</div>';
-
-			echo '</div>';
-
-		echo '</div>';
-
-	echo '</div>';
-
-	zerif_bottom_testimonials_trigger();
-
-echo '</section>';
-
-zerif_after_testimonials_trigger();
-
-
+<?php			global $wp_customize;			echo '<section class="testimonial" id="testimonials">';				echo '<div class="container">';					echo '<div class="section-header">';						$zerif_testimonials_title = get_theme_mod('zerif_testimonials_title',__('Testimonials','zerif-lite'));												if( !empty($zerif_testimonials_title) ):												echo '<h2 class="white-text">'.$zerif_testimonials_title.'</h2>';													elseif ( isset( $wp_customize ) ):													echo '<h2 class="white-text zerif_hidden_if_not_customizer"></h2>';													endif;						$zerif_testimonials_subtitle = get_theme_mod('zerif_testimonials_subtitle');						if( !empty($zerif_testimonials_subtitle) ):							echo '<h6 class="white-text section-legend">'.wp_kses_post( $zerif_testimonials_subtitle ).'</h6>';						elseif ( isset( $wp_customize ) ):													echo '<h6 class="white-text section-legend zerif_hidden_if_not_customizer"></h6>';													endif;					echo '</div>';					echo '<div class="row" data-scrollreveal="enter right after 0s over 1s">';						echo '<div class="col-md-12">';							$pinterest_style = '';							$zerif_testimonials_pinterest_style = get_theme_mod('zerif_testimonials_pinterest_style');							if( isset($zerif_testimonials_pinterest_style) && $zerif_testimonials_pinterest_style != 0 ) {								$pinterest_style = 'testimonial-masonry';							}							echo '<div id="client-feedbacks" class="owl-carousel owl-theme ' . $pinterest_style . ' ">';									if(is_active_sidebar( 'sidebar-testimonials' )):										dynamic_sidebar( 'sidebar-testimonials' );									else:										if ( file_exists( get_stylesheet_directory_uri().'/images/testimonial1.jpg' ) ):											the_widget('zerif_testimonial_widget', 'title=Dana Lorem&text=Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec sem vel sapien venenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.&image_uri=' . get_stylesheet_directory_uri() . '/images/testimonial1.jpg');										else:											the_widget('zerif_testimonial_widget', 'title=Dana Lorem&text=Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec sem vel sapien venenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.&image_uri=' . get_template_directory_uri() . '/images/testimonial1.jpg');										endif;										if ( file_exists( get_stylesheet_directory_uri().'/images/testimonial2.jpg' ) ):											the_widget('zerif_testimonial_widget', 'title=Linda Guthrie&text=Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec sem vel sapien venenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.&image_uri=' . get_stylesheet_directory_uri() . '/images/testimonial2.jpg');										else:											the_widget( 'zerif_testimonial_widget','title=Linda Guthrie&text=Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec sem vel sapien venenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.&image_uri='.get_template_directory_uri().'/images/testimonial2.jpg' );										endif;										if ( file_exists( get_stylesheet_directory_uri().'/images/testimonial3.jpg' ) ):											the_widget( 'zerif_testimonial_widget','title=Cynthia Henry&text=Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec sem vel sapien venenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.&image_uri='.get_stylesheet_directory_uri().'/images/testimonial3.jpg' );										else:											the_widget( 'zerif_testimonial_widget','title=Cynthia Henry&text=Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec sem vel sapien venenatis mattis non vitae augue. Nullam congue commodo lorem vitae facilisis. Suspendisse malesuada id turpis interdum dictum.&image_uri='.get_template_directory_uri().'/images/testimonial3.jpg' );										endif;									endif;							echo '</div>';						echo '</div>';					echo '</div>';				echo '</div>';			echo '</section>';?>

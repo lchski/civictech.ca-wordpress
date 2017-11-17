@@ -1,15 +1,13 @@
 <?php
 /**
  * The template for displaying Search Results pages.
- *
- * @package zerif-lite
  */
 get_header(); ?>
 
 <div class="clear"></div>
 
 </header> <!-- / END HOME SECTION  -->
-<?php zerif_after_header_trigger(); ?>
+
 <div id="content" class="site-content">
 
 	<div class="container">
@@ -18,51 +16,41 @@ get_header(); ?>
 
 			<div id="primary" class="content-area">
 
-				<main id="main" class="site-main">
-					<?php zerif_before_search_trigger(); ?>
-					<?php if ( have_posts() ) { ?>
+				<main id="main" class="site-main" role="main">
 
-						<header class="page-header">
+				<?php if ( have_posts() ) : ?>
 
-							<h1 class="page-title">
-							<?php
-							/* translators: Search query */
-								printf( __( 'Search Results for: %s', 'zerif-lite' ), '<span>' . get_search_query() . '</span>' );
-								?>
-								</h1>
+					<header class="page-header">
 
-						</header><!-- .page-header -->
+						<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'zerif-lite' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 
-						<?php
-						while ( have_posts() ) {
-							the_post();
+					</header><!-- .page-header -->
 
-							get_template_part( 'content', get_post_format() );
+					<?php while ( have_posts() ) : the_post(); ?>
 
-						}
+						<?php get_template_part( 'content', get_post_format() ); ?>
 
-						echo get_the_posts_navigation(
-							array(
-								/* translators: Newer posts navigation arrow */
-								'next_text' => sprintf( __( 'Newer posts %s', 'zerif-lite' ), '<span class="meta-nav">&rarr;</span>' ),
-								/* translators: Older posts navigation arrow */
-								'prev_text' => sprintf( __( '%s Older posts', 'zerif-lite' ), '<span class="meta-nav">&larr;</span>' ),
-							)
-						);
+					<?php endwhile; ?>
 
-} else {
-	get_template_part( 'content', 'none' );
-}
+					<?php zerif_paging_nav(); ?>
 
-					zerif_after_search_trigger();
-					?>
+				<?php else : ?>
+
+					<?php get_template_part( 'content', 'none' ); ?>
+
+				<?php endif; ?>
+
 				</main><!-- #main -->
 
 			</div><!-- #primary -->
 
 		</div><!-- .content-left-wrap -->
 
-		<?php zerif_sidebar_trigger(); ?>
+		<div class="sidebar-wrap col-md-3 content-left-wrap">
+
+			<?php get_sidebar(); ?>
+
+		</div><!-- .sidebar-wrap -->
 
 	</div><!-- .container -->
 

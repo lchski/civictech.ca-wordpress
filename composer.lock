@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c68e2a97c857168ff9b5d76820044ec",
+    "content-hash": "32959ec256689dcdf41f3a1f1227fe6b",
     "packages": [
         {
             "name": "composer/installers",
@@ -697,15 +697,15 @@
         },
         {
             "name": "wpackagist-theme/zerif-lite",
-            "version": "1.8.5.32",
+            "version": "1.8.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/zerif-lite/",
-                "reference": "1.8.5.32"
+                "reference": "1.8.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.5.32.zip",
+                "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.3.5.zip",
                 "reference": null,
                 "shasum": null
             },

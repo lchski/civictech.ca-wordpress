@@ -3,45 +3,40 @@ msgstr ""
 "Project-Id-Version: Zerif Lite\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-20 13:53+0200\n"
-"PO-Revision-Date: 2015-10-22 10:58+0200\n"
+"PO-Revision-Date: 2015-10-20 13:56+0200\n"
 "Last-Translator: \n"
-"Language-Team: Themeisle <friends@themeisle.com>\n"
-"Language: Polish\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
 "X-Poedit-Basepath: ../\n"
-"X-Loco-Target-Locale: pl_PL\n"
-"X-Generator: Loco - https://localise.biz/\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: inc\n"
 "X-Poedit-SearchPath-2: sections\n"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oops! Strony nie znaleziono."
+msgstr ""
 
 #: 404.php:18
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Wygląda na to, nic nie zostało znalezione w tym miejscu. Może spróbuj jednego z poniższych linków lub wyszukiwania?"
+msgstr ""
 
 #: archive.php:22
 #, php-format
 msgid "Author: %s"
-msgstr "Autor: %s"
+msgstr ""
 
 #: archive.php:24
 #, php-format
 msgid "Day: %s"
-msgstr "Dzień: %s"
+msgstr ""
 
 #: archive.php:26
 #, php-format
 msgid "Month: %s"
-msgstr "Miesiąc: %s"
+msgstr ""
 
 #: archive.php:26
 msgctxt "monthly archives date format"
@@ -51,7 +46,7 @@ msgstr ""
 #: archive.php:28
 #, php-format
 msgid "Year: %s"
-msgstr "Rok: %s"
+msgstr ""
 
 #: archive.php:28
 msgctxt "yearly archives date format"
@@ -60,43 +55,43 @@ msgstr ""
 
 #: archive.php:30
 msgid "Asides"
-msgstr "Wydzielone"
+msgstr ""
 
 #: archive.php:32
 msgid "Galleries"
-msgstr "Gallerie"
+msgstr ""
 
 #: archive.php:34
 msgid "Images"
-msgstr "Obrazy"
+msgstr ""
 
 #: archive.php:36
 msgid "Videos"
-msgstr "Wideo"
+msgstr ""
 
 #: archive.php:38
 msgid "Quotes"
-msgstr "Cytaty"
+msgstr ""
 
 #: archive.php:40
 msgid "Links"
-msgstr "Linki"
+msgstr ""
 
 #: archive.php:42
 msgid "Statuses"
-msgstr "Statusy"
+msgstr ""
 
 #: archive.php:44
 msgid "Audios"
-msgstr "Audio"
+msgstr ""
 
 #: archive.php:46
 msgid "Chats"
-msgstr "Czaty"
+msgstr ""
 
 #: archive.php:48
 msgid "Archives"
-msgstr "Archiwa"
+msgstr ""
 
 #: class-tgm-plugin-activation.php:333
 #: functions.php:300
@@ -382,28 +377,28 @@ msgstr ""
 #: comments.php:17
 #: comments.php:32
 msgid "Comment navigation"
-msgstr "Nawigacja komentarzy"
+msgstr ""
 
 #: comments.php:18
 #: comments.php:33
 msgid "&larr; Older Comments"
-msgstr "&larr; Starsze komentarze"
+msgstr ""
 
 #: comments.php:19
 #: comments.php:34
 msgid "Newer Comments &rarr;"
-msgstr "Nowsze komentarze &rarr;"
+msgstr ""
 
 #: comments.php:42
 msgid "Comments are closed."
-msgstr "Komentarze są niedostępne"
+msgstr ""
 
 #: content-large.php:67
 #: content-page.php:1
 #: content-single.php:1
 #: content.php:65
 msgid "Pages:"
-msgstr "Strony:"
+msgstr ""
 
 #: content-large.php:100
 #: content-large.php:118
@@ -417,7 +412,7 @@ msgstr ""
 #: content.php:88
 #, php-format
 msgid "Posted in %1$s"
-msgstr "Utworzono %1$s"
+msgstr ""
 
 #: content-large.php:126
 #: content.php:106
@@ -428,29 +423,28 @@ msgstr ""
 #: content-large.php:137
 #: content.php:116
 msgid "Leave a comment"
-msgstr "Zostaw komentarz"
+msgstr ""
 
 #: content-large.php:137
 #: content.php:116
 msgid "1 Comment"
-msgstr "1 komentarz"
+msgstr ""
 
 #: content-large.php:137
 #: content.php:116
-#, c-format
 msgid "% Comments"
-msgstr "% Komentarzy"
+msgstr ""
 
 #: content-large.php:141
 #: content-page.php:1
 #: content-single.php:1
 #: content.php:120
 msgid "Edit"
-msgstr "Edycja"
+msgstr ""
 
 #: content-none.php:8
 msgid "Nothing Found"
-msgstr "Nie odnaleziono"
+msgstr ""
 
 #: content-none.php:12
 #, php-format
@@ -468,11 +462,11 @@ msgstr ""
 #: content-page.php:1
 #, php-format
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Kontynuuj czytanie %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
 
 #: footer.php:17
 msgid "Company address"
-msgstr "Adres spółki"
+msgstr ""
 
 #: footer.php:136
 msgid "powered by"
@@ -480,59 +474,59 @@ msgstr ""
 
 #: front-page.php:96
 msgid "* Please enter your name."
-msgstr "* Proszę wpisać imię"
+msgstr ""
 
 #: front-page.php:110
 msgid "* Please enter your email address."
-msgstr "* Proszę wpisać adres e-mail"
+msgstr ""
 
 #: front-page.php:116
 msgid "* You entered an invalid email address."
-msgstr "* Podano zły adres e-mail"
+msgstr ""
 
 #: front-page.php:130
 msgid "* Please enter a subject."
-msgstr "* Proszę wpisać temat"
+msgstr ""
 
 #: front-page.php:144
 msgid "* Please enter a message."
-msgstr "* Proszę wpisać wiadomość"
+msgstr ""
 
 #: front-page.php:300
 msgid "Get in touch"
-msgstr "Pozostań w kontakcie"
+msgstr ""
 
 #: front-page.php:329
 msgid "Thanks, your email was sent successfully!"
-msgstr "Dziękujemy, Twój e-mail został wysłany pomyślnie!"
+msgstr ""
 
 #: front-page.php:333
 msgid "Sorry, an error occured."
-msgstr "Przepraszamy, wystąpił błąd."
+msgstr ""
 
 #: front-page.php:370
 #: front-page.php:371
 msgid "Your Name"
-msgstr "Twoje imię"
+msgstr ""
 
 #: front-page.php:375
 #: front-page.php:376
 msgid "Your Email"
-msgstr "Twój e-mail"
+msgstr ""
 
 #: front-page.php:380
 #: front-page.php:381
 msgid "Subject"
-msgstr "Temat"
+msgstr ""
 
 #: front-page.php:385
 #: front-page.php:386
 msgid "Your Message"
-msgstr "Twoja wiadomość"
+msgstr ""
 
 #: front-page.php:390
 msgid "Send Message"
-msgstr "Wyślij wiadomość"
+msgstr ""
 
 #: functions.php:39
 msgid "Primary Menu"
@@ -832,12 +826,12 @@ msgstr ""
 #: inc/customizer.php:455
 #: inc/customizer.php:566
 msgid "ONE OF THE TOP 10 MOST POPULAR THEMES ON WORDPRESS.ORG"
-msgstr "JEDNA Z 10 NAJPOPULARNIEJSZYCH MOTYWÓW W WORDPRESS.ORG"
+msgstr ""
 
 #: inc/customizer.php:463
 #: inc/customizer.php:574
 msgid "Features"
-msgstr "Cechy"
+msgstr ""
 
 #: inc/customizer.php:465
 #: inc/customizer.php:576
@@ -853,7 +847,7 @@ msgstr ""
 #: inc/customizer.php:478
 #: inc/customizer.php:589
 msgid "What's inside"
-msgstr "Co jest w środku"
+msgstr ""
 
 #: inc/customizer.php:480
 msgid "Green button label"
@@ -906,12 +900,12 @@ msgstr ""
 #: inc/customizer.php:669
 #: inc/customizer.php:706
 msgid "FEATURES"
-msgstr "CECHY"
+msgstr ""
 
 #: inc/customizer.php:678
 #: inc/customizer.php:715
 msgid "What makes this single-page WordPress theme unique."
-msgstr "Co sprawia, że ​​ten jeden - strona WordPress wyjątkowy."
+msgstr ""
 
 #: inc/customizer.php:680
 #: inc/customizer.php:717
@@ -934,12 +928,12 @@ msgstr ""
 #: inc/customizer.php:760
 #: inc/customizer.php:953
 msgid "About"
-msgstr "O"
+msgstr ""
 
 #: inc/customizer.php:768
 #: inc/customizer.php:961
 msgid "Use this section to showcase important details about your business."
-msgstr "Użyj tej sekcji , aby zaprezentować ważne informacje na temat swojej działalności."
+msgstr ""
 
 #: inc/customizer.php:770
 #: inc/customizer.php:963
@@ -949,7 +943,7 @@ msgstr ""
 #: inc/customizer.php:776
 #: inc/customizer.php:969
 msgid "Everything you see here is responsive and mobile-friendly."
-msgstr "Wszystko, co tu widzisz, jest elastyczny i mobilny w obsłudze."
+msgstr ""
 
 #: inc/customizer.php:778
 #: inc/customizer.php:971
@@ -968,7 +962,7 @@ msgstr ""
 #: inc/customizer.php:799
 #: inc/customizer.php:985
 msgid "YOUR SKILL #1"
-msgstr "Swoje umiejętności #1"
+msgstr ""
 
 #: inc/customizer.php:801
 #: inc/customizer.php:987
@@ -992,7 +986,7 @@ msgstr ""
 #: inc/customizer.php:835
 #: inc/customizer.php:1014
 msgid "YOUR SKILL #2"
-msgstr "Swoje umiejętności #2"
+msgstr ""
 
 #: inc/customizer.php:837
 #: inc/customizer.php:1016
@@ -1016,7 +1010,7 @@ msgstr ""
 #: inc/customizer.php:871
 #: inc/customizer.php:1043
 msgid "YOUR SKILL #3"
-msgstr "Swoje umiejętności #3"
+msgstr ""
 
 #: inc/customizer.php:873
 #: inc/customizer.php:1045
@@ -1040,7 +1034,7 @@ msgstr ""
 #: inc/customizer.php:907
 #: inc/customizer.php:1072
 msgid "YOUR SKILL #4"
-msgstr "Swoje umiejętności #4"
+msgstr ""
 
 #: inc/customizer.php:909
 #: inc/customizer.php:1074
@@ -1070,12 +1064,12 @@ msgstr ""
 #: inc/customizer.php:1130
 #: inc/customizer.php:1166
 msgid "YOUR TEAM"
-msgstr "TWOJA DRUŻYNA"
+msgstr ""
 
 #: inc/customizer.php:1138
 #: inc/customizer.php:1174
 msgid "Prove that you have real people working for you, with some nice looking profile pictures and links to social media."
-msgstr "Udowodnij, że masz prawdziwych ludzi pracujących dla Ciebie , z kilkoma ładnymi profilu zdjęć i linków do mediów społecznościowych."
+msgstr ""
 
 #: inc/customizer.php:1140
 #: inc/customizer.php:1176
@@ -1105,7 +1099,7 @@ msgstr ""
 #: inc/customizer.php:1223
 #: inc/customizer.php:1269
 msgid "Testimonials"
-msgstr "Opinie"
+msgstr ""
 
 #: inc/customizer.php:1233
 #: inc/customizer.php:1279
@@ -1301,13 +1295,13 @@ msgstr ""
 
 #: sections/latest_news.php:24
 msgid "Latest news"
-msgstr "Ostatnie wiadomości"
+msgstr ""
 
 #: sections/latest_news.php:144
 msgid "Previous"
-msgstr "Poprzednie"
+msgstr ""
 
 #: sections/latest_news.php:148
 msgid "Next"
-msgstr "Następne"
+msgstr ""
 
