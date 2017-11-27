@@ -188,30 +188,29 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('homepage_hero') ) 
 <div class="col-xs-2"><a href="http://geothink.ca"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/geothink.png" /></a></div>
 <div class="col-xs-2"><a href="http://grllp.com"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/gardiner.png" /></a></div>
 <div class="col-xs-2"><a href="http://lighthouselabs.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-lighthouse.png" /></a></div>
-<div class="col-xs-2"><a href="http://pivotal.io"><img src="http://civictech.ca/wp-content/uploads/2017/07/pivotal200.png" /></a></div>
-<div class="col-xs-2"><a href="https://www.sandboxdmz.com/"><img src="http://civictech.ca/wp-content/uploads/2017/06/Sandbox200.png" /></a></div>
-<div class="col-xs-2"><a href="http://brookfieldinstitute.ca"><img src="http://civictech.ca/wp-content/uploads/2017/06/brookfield200.png" /></a></div>
-<div class="col-xs-2"><a href="http://twitter.com/"><img src="http://civictech.ca/wp-content/uploads/2017/04/twitter.png" /></a></div>
-<div class="col-xs-2"><a href="http://myplanet.com/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-myplanet.png" /></a></div>
-<div class="col-xs-2"><a href="http://toronto.ca/"><img src="http://civictech.ca/wp-content/uploads/2017/03/logo-toronto.png" /></a></div>
+<div class="col-xs-2"><a href="http://pivotal.io"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/pivotal200.png" /></a></div>
+<div class="col-xs-2"><a href="https://www.sandboxdmz.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/Sandbox200.png" /></a></div>
+<div class="col-xs-2"><a href="http://twitter.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/twitter.png" /></a></div>
+<div class="col-xs-2"><a href="http://myplanet.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-myplanet.png" /></a></div>
+<div class="col-xs-2"><a href="http://toronto.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-toronto.png" /></a></div>
 <div class="col-xs-2">
-<a href="https://www.randstad.ca/our-divisions/technologies/"><img src="http://civictech.ca/wp-content/uploads/2017/03/logo-randstad.png" /></a></div>
-<div class="col-xs-2"><a href="http://publicpolicy.utoronto.ca/"><img src="http://civictech.ca/wp-content/uploads/2017/03/logo-sppg.png" /></a></div>
-<div class="col-xs-2"><a href="http://hackeryou.com/"><img src="http://civictech.ca/wp-content/uploads/2017/03/logo-hackeryou.png" /></a></div>
-<div class="col-xs-2"><a href="http://tunnelbear.com/"><img src="http://civictech.ca/wp-content/uploads/2017/03/logo-tunnelbear.png" /></a></div>
-<div class="col-xs-2"><a href="http://rangle.io/"><img src="http://civictech.ca/wp-content/uploads/2017/03/logo-rangle.png" /></a></div>
-<div class="col-xs-2"><a href="http://twg.io/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-twg.png" /></a></div>
-<div class="col-xs-2"><a href="http://interaccess.org/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-interaccess.png" /></a></div>
-<div class="col-xs-2"><a href="http://atkinsonfoundation.ca/"><img src="http://civictech.ca/wp-content/uploads/2016/08/atkinson.png" /></a></div>
-<div class="col-xs-2"><a href="http://civicaction.ca/"><img src="http://civictech.ca/wp-content/uploads/2016/08/civic-action.png" /></a></div>
-<div class="col-xs-2"><a href="http://elnonline.ca/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-eln.png" /></a></div>
-<div class="col-xs-2"><a href="http://connectedlab.com/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-connectedlab.png" /></a></div>
-<div class="col-xs-2"><a href="http://ontario.ca/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-ontario.png" /></a></div>
-<div class="col-xs-2"><a href="http://mozilla.org/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-mozilla.png" /></a></div>
-<div class="col-xs-2"><a href="http://architech.ca/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-architech.png" /></a></div>
-<div class="col-xs-2"><a href="http://lighthouselabs.ca/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-lighthouse.png" /></a></div>
-<div class="col-xs-2"><a href="http://thoughtworks.com/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-thoughtworks.png" /></a></div>
-<div class="col-xs-2"><a href="http://designcofounders.com/"><img src="http://civictech.ca/wp-content/uploads/2016/08/logo-designcofounders.png" /></a></div>
+<a href="https://www.randstad.ca/our-divisions/technologies/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-randstad.png" /></a></div>
+<div class="col-xs-2"><a href="http://publicpolicy.utoronto.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-sppg.png" /></a></div>
+<div class="col-xs-2"><a href="http://hackeryou.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-hackeryou.png" /></a></div>
+<div class="col-xs-2"><a href="http://tunnelbear.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-tunnelbear.png" /></a></div>
+<div class="col-xs-2"><a href="http://rangle.io/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-rangle.png" /></a></div>
+<div class="col-xs-2"><a href="http://twg.io/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-twg.png" /></a></div>
+<div class="col-xs-2"><a href="http://interaccess.org/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-interaccess.png" /></a></div>
+<div class="col-xs-2"><a href="http://atkinsonfoundation.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/atkinson.png" /></a></div>
+<div class="col-xs-2"><a href="http://civicaction.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/civic-action.png" /></a></div>
+<div class="col-xs-2"><a href="http://elnonline.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-eln.png" /></a></div>
+<div class="col-xs-2"><a href="http://connectedlab.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-connectedlab.png" /></a></div>
+<div class="col-xs-2"><a href="http://ontario.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-ontario.png" /></a></div>
+<div class="col-xs-2"><a href="http://mozilla.org/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-mozilla.png" /></a></div>
+<div class="col-xs-2"><a href="http://architech.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-architech.png" /></a></div>
+<div class="col-xs-2"><a href="http://lighthouselabs.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-lighthouse.png" /></a></div>
+<div class="col-xs-2"><a href="http://thoughtworks.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-thoughtworks.png" /></a></div>
+<div class="col-xs-2"><a href="http://designcofounders.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-designcofounders.png" /></a></div>
 -->			</div>
 		</div><!-- .container -->
 	</div>
