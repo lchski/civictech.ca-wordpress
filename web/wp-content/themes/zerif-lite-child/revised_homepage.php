@@ -64,19 +64,19 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('homepage_hero') ) 
 			</div>
 			<div class="clear">
 				<div class="col-md-4" style="margin-bottom: 40px;">
-					<img style="margin-bottom: 30px; width: 100px;" src="http://civictech.ca/wp-content/uploads/2016/09/icon-happy-speech-bubble.png" />
+					<img style="margin-bottom: 30px; width: 100px;" src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-happy-speech-bubble.png" />
 					<h2>6:30 pm</h2>
 					<div style="height: 2px; background-color: rgba(0, 0, 0, 0.2); width: 16px; margin: 10px auto;"></div>
 					<p>Socializing with fellow members</p>
 				</div>
 				<div class="col-md-4" style="margin-bottom: 40px;">
-					<img style="margin-bottom: 30px; width: 100px;" src="http://civictech.ca/wp-content/uploads/2016/09/icon-podium.png" />
+					<img style="margin-bottom: 30px; width: 100px;" src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-podium.png" />
 					<h2>7:00 pm</h2>
 					<div style="height: 2px; background-color: rgba(0, 0, 0, 0.2); width: 16px; margin: 10px auto;"></div>
 					<p>Scheduled speaker presents to the group</p>
 				</div>
 				<div class="col-md-4" style="margin-bottom: 40px;">
-					<img style="margin-bottom: 30px; width: 100px;" src="http://civictech.ca/wp-content/uploads/2016/09/icon-collaboration.png" />
+					<img style="margin-bottom: 30px; width: 100px;" src="<?php echo get_stylesheet_directory_uri() ?>/images/icon-collaboration.png" />
 					<h2>7:40 pm</h2>
 					<div style="height: 2px; background-color: rgba(0, 0, 0, 0.2); width: 16px; margin: 10px auto;"></div>
 					<p>Attendees collaborate on projects</p>
