@@ -17,6 +17,9 @@ if ( get_stylesheet() !== get_template() ) {
     } );
 }
 
+$logo_url = get_stylesheet_directory_uri() . '/images/CTTO-logo-sm.png';
+set_theme_mod('zerif_logo', $logo_url);
+
 /**
  * Register widgetized area and update sidebar with default widgets.
  */
