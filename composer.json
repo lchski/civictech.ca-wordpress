@@ -12,6 +12,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:patcon/meetup-widgets.git"
+    },
+    {
+      "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
     }
   ],
@@ -28,7 +32,6 @@
     "wpackagist-plugin/google-analyticator": "6.5.3",
     "wpackagist-plugin/iframe": "4.3",
     "wpackagist-plugin/mailchimp-for-wp": "4.1.4",
-    "wpackagist-plugin/meetup-widgets": "2.2.1",
     "wpackagist-plugin/redirection": "2.7.3",
     "wpackagist-plugin/storify": "1.0.9",
     "wpackagist-plugin/tweet-old-post": "7.4.8",
@@ -38,6 +41,7 @@
     "wpackagist-plugin/wp-math-captcha": "1.2.7",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.1.4",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.0",
+    "patcon/meetup-widgets": "dev-civictechto",
     "wpackagist-theme/zerif-lite": "1.8.3.5"
   },
   "require-dev": {
