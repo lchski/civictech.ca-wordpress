@@ -208,7 +208,6 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('homepage_hero') ) 
 <div class="col-xs-2"><a href="http://ontario.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-ontario.png" /></a></div>
 <div class="col-xs-2"><a href="http://mozilla.org/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-mozilla.png" /></a></div>
 <div class="col-xs-2"><a href="http://architech.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-architech.png" /></a></div>
-<div class="col-xs-2"><a href="http://lighthouselabs.ca/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-lighthouse.png" /></a></div>
 <div class="col-xs-2"><a href="http://thoughtworks.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-thoughtworks.png" /></a></div>
 <div class="col-xs-2"><a href="http://designcofounders.com/"><img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo-designcofounders.png" /></a></div>
 -->			</div>
