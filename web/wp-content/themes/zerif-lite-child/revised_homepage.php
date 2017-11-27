@@ -184,7 +184,10 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('homepage_hero') ) 
 
 
 
-
+<div class="col-xs-2"><a href="http://brookfieldinstitute.ca"><img src="<?php echo get_template_directory_uri() ?>/images/brookfield200.png" /></a></div>
+<div class="col-xs-2"><a href="http://geothink.ca"><img src="<?php echo get_template_directory_uri() ?>/images/geothink.png" /></a></div>
+<div class="col-xs-2"><a href="http://grllp.com"><img src="<?php echo get_template_directory_uri() ?>/images/gardiner.png" /></a></div>
+<div class="col-xs-2"><a href="http://lighthouselabs.ca/"><img src="<?php echo get_template_directory_uri() ?>/images/logo-lighthouse.png" /></a></div>
 <div class="col-xs-2"><a href="http://pivotal.io"><img src="http://civictech.ca/wp-content/uploads/2017/07/pivotal200.png" /></a></div>
 <div class="col-xs-2"><a href="https://www.sandboxdmz.com/"><img src="http://civictech.ca/wp-content/uploads/2017/06/Sandbox200.png" /></a></div>
 <div class="col-xs-2"><a href="http://brookfieldinstitute.ca"><img src="http://civictech.ca/wp-content/uploads/2017/06/brookfield200.png" /></a></div>
