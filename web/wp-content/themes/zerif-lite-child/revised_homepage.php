@@ -24,8 +24,8 @@ if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('homepage_hero') ) 
 				<div class="content-left-wrap col-md-6" style="padding-bottom: 30px; padding-top: 30px;">
 					<h1 class="alt-header" style="font-size: 36px; margin-bottom: 20px; text-align: right;">Hacknights for everyone.</h1>
 					<video style="width: 100%; position: relative;" autoplay="true" id="bgvid" loop="true" muted="true" poster="/assets/cropped-13e263fdb71883cb81978c6aa75cc16a.jpg">
-						<source src="http://civictech.ca/wp-content/uploads/2017/02/Hacknight_40_May_3rd_-_Brookfield_Institute_Hack2A_540.webm" type='video/webm; codecs="vp8, vorbis"'>
-						<img src="http://civictech.ca/wp-content/uploads/2017/02/Hacknight_video_screencap.png" title="Civic Tech Toronto members working at hacknight">
+            <source src="<?php echo get_stylesheet_directory_uri() ?>/images/Hacknight_40_May_3rd_-_Brookfield_Institute_Hack2A_540.webm" type='video/webm; codecs="vp8, vorbis"'>
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/Hacknight_video_screencap.png" title="Civic Tech Toronto members working at hacknight">
 					</video>
 				</div>
 
