@@ -3,7 +3,7 @@ Vue.prototype.$last = function (item, list) {
   return item == list[list.length - 1]
 }
 var app = new Vue({
-  el: '#app',
+  el: '#content',
   data: {
     fullBoard: {},
     featuredCards: [],
