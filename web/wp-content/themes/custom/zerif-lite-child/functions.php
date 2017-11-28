@@ -22,7 +22,7 @@ function child_enqueue_scripts() {
     if ( is_page( 'projects' ) ) {
         wp_enqueue_script(
             'child-projects-script',
-            get_stylesheet_directory_uri() . '/js/projects.js'
+            get_stylesheet_directory_uri() . '/js/projects.js', array(), false, true)
         );
         wp_enqueue_script('vue',       '//unpkg.com/vue');
         wp_enqueue_script('axios',     '//cdnjs.cloudflare.com/ajax/libs/axios/0.15.2/axios.js');
