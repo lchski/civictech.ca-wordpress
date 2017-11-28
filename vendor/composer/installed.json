@@ -236,42 +236,6 @@
         "description": "Push commits made via the Pantheon dashboard back to original GitHub repository."
     },
     {
-        "name": "pantheon-systems/wordpress-composer",
-        "version": "4.8.2",
-        "version_normalized": "4.8.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-            "reference": "5f0725b3cdbeeb53fa49e1afcfc8237cbfba3355"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/5f0725b3cdbeeb53fa49e1afcfc8237cbfba3355",
-            "reference": "5f0725b3cdbeeb53fa49e1afcfc8237cbfba3355",
-            "shasum": ""
-        },
-        "require": {
-            "johnpbloch/wordpress-core-installer": "~0.1"
-        },
-        "time": "2017-09-19T23:18:39+00:00",
-        "type": "wordpress-core",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "4.x-dev"
-            },
-            "wordpress-install-dir": "web/wp"
-        },
-        "installation-source": "dist",
-        "license": [
-            "GPL-2.0+"
-        ],
-        "description": "WordPress for Pantheon with a composer.json file.",
-        "support": {
-            "source": "https://github.com/pantheon-systems/wordpress-composer/tree/4.8.2",
-            "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
-        }
-    },
-    {
         "name": "roots/wp-password-bcrypt",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
@@ -758,5 +722,41 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/akismet/"
+    },
+    {
+        "name": "pantheon-systems/wordpress-composer",
+        "version": "4.9",
+        "version_normalized": "4.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pantheon-systems/wordpress-composer.git",
+            "reference": "666c2ad9a084b4d00ff8047a9a2501b12161ccb3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/666c2ad9a084b4d00ff8047a9a2501b12161ccb3",
+            "reference": "666c2ad9a084b4d00ff8047a9a2501b12161ccb3",
+            "shasum": ""
+        },
+        "require": {
+            "johnpbloch/wordpress-core-installer": "~0.1"
+        },
+        "time": "2017-11-16T04:42:43+00:00",
+        "type": "wordpress-core",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.x-dev"
+            },
+            "wordpress-install-dir": "web/wp"
+        },
+        "installation-source": "dist",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "description": "WordPress for Pantheon with a composer.json file.",
+        "support": {
+            "source": "https://github.com/pantheon-systems/wordpress-composer/tree/4.9",
+            "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
+        }
     }
 ]
