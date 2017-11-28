@@ -18,13 +18,13 @@ Access doc][service-access] to see who can give it to you.)
 
    [service-access]: https://hackmd.io/s/SJcySi2db#services
 
-### Philosophy
+## Philosophy
 
 - Keep important site configuration in code, not in the database.
 - Capture plugin and theme customizations in version control, as opposed
   to untracked changes on an FTP server.
 
-### File Organization
+## File Organization
 
 - Theme customizations are stores in
   [`web/wp-content/themes/custom/zerif-lite-child`][child-theme]
@@ -42,7 +42,7 @@ Access doc][service-access] to see who can give it to you.)
    [meetup-widget-changes]: https://github.com/ryelle/Meetup-Widgets/compare/master...patcon:civictechto
    [about-composer]: https://roots.io/using-composer-with-wordpress/
 
-### Projects page
+## Projects page
 
 The [Projects page][projects-page] is a little special. It is
 automatically generated and updated from the ["Hacknight Projects"
