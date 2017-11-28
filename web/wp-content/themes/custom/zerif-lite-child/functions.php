@@ -17,6 +17,16 @@ if ( get_stylesheet() !== get_template() ) {
     } );
 }
 
+add_action( 'wp_enqueue_scripts', 'child_enqueue_scripts' );
+function child_enqueue_scripts() {
+    if ( is_page( 'projects' ) ) {
+        wp_enqueue_script(
+            'child-projects-script',
+            get_stylesheet_directory_uri() . '/js/projects.js'
+        );
+    }
+}
+
 $logo_url = get_stylesheet_directory_uri() . '/images/CTTO-logo-sm.png';
 set_theme_mod('zerif_logo', $logo_url);
 
