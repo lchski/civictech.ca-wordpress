@@ -29,7 +29,7 @@ Access doc][service-access] to see who can give it to you.)
 - Theme customizations are stores in
   [`web/wp-content/themes/custom/zerif-lite-child`][child-theme]
 - We are using a custom version of the [Meetup Widgets
-  plugin][meetup-widget]. [Changes][meetup-plugin-changes]
+  plugin][meetup-widget]. (See [changes][meetup-plugin-changes])
 - All other themes and plugins are using unmodified versions.
 - We use [Composer package manager][about-composer] to help manage Wordpress.
   - `composer.json` specifies roughly what theme/plugin version we want
@@ -39,7 +39,7 @@ Access doc][service-access] to see who can give it to you.)
 
    [child-theme]: web/wp-content/themes/custom/zerif-lite-child
    [meetup-widget]: https://wordpress.org/plugins/meetup-widgets/
-   [meetup-widget-changes]: https://github.com/ryelle/Meetup-Widgets/compare/master...patcon:civictechto
+   [meetup-plugin-changes]: https://github.com/ryelle/Meetup-Widgets/compare/master...patcon:civictechto
    [about-composer]: https://roots.io/using-composer-with-wordpress/
 
 ## Projects page
