@@ -383,6 +383,28 @@
         ]
     },
     {
+        "name": "wpackagist-theme/zerif-lite",
+        "version": "1.8.3.5",
+        "version_normalized": "1.8.3.5",
+        "source": {
+            "type": "svn",
+            "url": "https://themes.svn.wordpress.org/zerif-lite/",
+            "reference": "1.8.3.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.3.5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-theme",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/themes/zerif-lite/"
+    },
+    {
         "name": "wpackagist-plugin/add-meta-tags",
         "version": "2.11.3",
         "version_normalized": "2.11.3.0",
@@ -711,28 +733,6 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
-    },
-    {
-        "name": "wpackagist-theme/zerif-lite",
-        "version": "1.8.3.5",
-        "version_normalized": "1.8.3.5",
-        "source": {
-            "type": "svn",
-            "url": "https://themes.svn.wordpress.org/zerif-lite/",
-            "reference": "1.8.3.5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.3.5.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-theme",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/themes/zerif-lite/"
     },
     {
         "name": "patcon/meetup-widgets",

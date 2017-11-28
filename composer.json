@@ -72,6 +72,7 @@
       ]
     },
     "installer-paths": {
+      "web/wp-content/plugins/custom/{$name}/": ["patcon/meetup-widgets"],
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
