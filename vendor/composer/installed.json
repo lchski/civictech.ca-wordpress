@@ -405,6 +405,31 @@
         "homepage": "https://wordpress.org/themes/zerif-lite/"
     },
     {
+        "name": "patcon/meetup-widgets",
+        "version": "dev-civictechto",
+        "version_normalized": "dev-civictechto",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/patcon/Meetup-Widgets.git",
+            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/patcon/Meetup-Widgets/zipball/1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
+            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*"
+        },
+        "time": "2017-11-27T21:35:50+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "support": {
+            "source": "https://github.com/patcon/Meetup-Widgets/tree/civictechto"
+        }
+    },
+    {
         "name": "wpackagist-plugin/add-meta-tags",
         "version": "2.11.3",
         "version_normalized": "2.11.3.0",
@@ -733,30 +758,5 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
-    },
-    {
-        "name": "patcon/meetup-widgets",
-        "version": "dev-civictechto",
-        "version_normalized": "dev-civictechto",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/patcon/Meetup-Widgets.git",
-            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/patcon/Meetup-Widgets/zipball/1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
-            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
-            "shasum": ""
-        },
-        "require": {
-            "composer/installers": "*"
-        },
-        "time": "2017-11-27T21:35:50+00:00",
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "support": {
-            "source": "https://github.com/patcon/Meetup-Widgets/tree/civictechto"
-        }
     }
 ]
