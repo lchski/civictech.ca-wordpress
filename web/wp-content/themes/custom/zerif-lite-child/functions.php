@@ -24,6 +24,10 @@ function child_enqueue_scripts() {
             'child-projects-script',
             get_stylesheet_directory_uri() . '/js/projects.js'
         );
+        wp_enqueue_script('vue',       '//unpkg.com/vue');
+        wp_enqueue_script('axios',     '//cdnjs.cloudflare.com/ajax/libs/axios/0.15.2/axios.js');
+        wp_enqueue_script('marked',    '//cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js');
+        wp_enqueue_script('dompurify', '//cdnjs.cloudflare.com/ajax/libs/dompurify/1.0.2/purify.min.js');
     }
 }
 
