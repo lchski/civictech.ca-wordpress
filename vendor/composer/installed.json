@@ -427,28 +427,6 @@
         "homepage": "https://wordpress.org/plugins/add-meta-tags/"
     },
     {
-        "name": "wpackagist-plugin/akismet",
-        "version": "3.3.2",
-        "version_normalized": "3.3.2.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/akismet/",
-            "reference": "tags/3.3.2"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/akismet.3.3.2.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/akismet/"
-    },
-    {
         "name": "wpackagist-plugin/exclude-pages",
         "version": "1.92",
         "version_normalized": "1.92.0.0",
@@ -758,5 +736,27 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+    },
+    {
+        "name": "wpackagist-plugin/akismet",
+        "version": "3.3.4",
+        "version_normalized": "3.3.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/akismet/",
+            "reference": "tags/3.3.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/akismet.3.3.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/akismet/"
     }
 ]
