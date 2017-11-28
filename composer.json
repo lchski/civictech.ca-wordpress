@@ -41,6 +41,7 @@
     "wpackagist-plugin/wp-math-captcha": "1.2.7",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.0",
+    "wpackagist-plugin/wp-redis": "^0.7.0",
     "patcon/meetup-widgets": "dev-civictechto",
     "wpackagist-theme/zerif-lite": "1.8.3.5"
   },

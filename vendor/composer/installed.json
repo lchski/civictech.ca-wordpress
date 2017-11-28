@@ -758,5 +758,27 @@
             "source": "https://github.com/pantheon-systems/wordpress-composer/tree/4.9",
             "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
         }
+    },
+    {
+        "name": "wpackagist-plugin/wp-redis",
+        "version": "0.7.0",
+        "version_normalized": "0.7.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-redis/",
+            "reference": "tags/0.7.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-redis.0.7.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-redis/"
     }
 ]
