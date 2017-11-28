@@ -1,17 +1,14 @@
-# WordPress
+# WordPress: Civic Tech Toronto
 
-This is a WordPress repository configured to run on the [Pantheon platform](https://pantheon.io).
+This is a WordPress repository configured to run on the **Civic Tech
+Toronto** website on the [Pantheon platform](https://pantheon.io).
 
-Pantheon is website platform optimized and configured to run high performance sites with an amazing developer workflow. There is built-in support for features such as Varnish, Redis, Apache Solr, New Relic, Nginx, PHP-FPM, MySQL, PhantomJS and more. 
+**Pantheon** is website platform optimized and configured to run high performance sites with an amazing developer workflow. There is built-in support for features such as Varnish, Redis, Apache Solr, New Relic, Nginx, PHP-FPM, MySQL, PhantomJS and more. 
 
-## Civic Tech Toronto
-
-This section contains information specific to Civic Tech Toronto.
+## About
 
 Our experimental development site is hosted at:
 https://dev-civictechto.pantheonsite.io
-
-We host the website on Pantheon.
 
 The Panthon dashboard is here:
 https://dashboard.pantheon.io/sites/2719de9e-f8ef-44d0-9627-bc83e50bd0e2
