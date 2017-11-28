@@ -14,7 +14,7 @@ get_header();  ?>
 			<main id="main" class="site-main" role="main">
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
           <header class="entry-header">
-            <?php zerif_page_header_trigger(); ?>
+            <h1 class="entry-title"><?php the_title(); ?></h1>
           </header><!-- .entry-header -->
 
           <div style="border: 2px solid #ccc; padding: 30px;">
