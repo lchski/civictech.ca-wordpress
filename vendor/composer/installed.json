@@ -537,28 +537,6 @@
         "homepage": "https://wordpress.org/plugins/storify/"
     },
     {
-        "name": "wpackagist-plugin/tweet-old-post",
-        "version": "7.4.8",
-        "version_normalized": "7.4.8.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/tweet-old-post/",
-            "reference": "tags/7.4.8"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/tweet-old-post.7.4.8.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/tweet-old-post/"
-    },
-    {
         "name": "wpackagist-plugin/updraftplus",
         "version": "1.13.4",
         "version_normalized": "1.13.4.0",
@@ -758,5 +736,27 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/google-analyticator/"
+    },
+    {
+        "name": "wpackagist-plugin/tweet-old-post",
+        "version": "7.5.0",
+        "version_normalized": "7.5.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/tweet-old-post/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/tweet-old-post.zip?timestamp=1505312992",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/tweet-old-post/"
     }
 ]

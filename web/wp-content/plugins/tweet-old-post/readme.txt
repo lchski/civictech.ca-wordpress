@@ -2,7 +2,7 @@
 Contributors: codeinwp,marius2012,marius_codeinwp,hardeepasrani,Madalin_Themeisle, rsocial, uriahs-victor
 Tags:twitter, facebook, linkedin, automatic, tweet, share, wordpress, marketing, sharing, Tweet old post, Tweets,evergreen
 Requires at least: 2.7
-Tested up to: 4.7.3
+Tested up to: 4.8
 Stable tag: trunk
 
 
@@ -94,13 +94,13 @@ http://revive.social/support/
 
 - Unfortunately wp_cron function isn't perfect, it trigger just when somebody visit your site, so you nobody visit your site in 3 hours, ROP won't trigger. In order to achieve this you need to enable Remote Check and add this line to your wp-config.php right after the lines with database credentials:
 
-> define('DISABLE_WP_CRON', true);
+define('DISABLE_WP_CRON', true);
 
 **Post are not sent to the social networks and i always see the green badge with 'You can refresh the page to see the next schedule !'**
 
 - You need to add this line to your wp-config.php right after the lines with database credentials:
 
-  > define('ALTERNATE_WP_CRON', true);
+define('ALTERNATE_WP_CRON', true);
 
 **How do i add a facebook account**
 
@@ -130,6 +130,11 @@ http://revive.social/plugins/revive-old-post
 
 
 == Changelog ==
+
+**New in v7.5.0**
+
+*   Improved compatibility with WordPress 4.8
+* 	Preparing groundbase for v8.
 
 **New in v7.4.8**
 

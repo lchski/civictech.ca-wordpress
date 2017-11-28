@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0462dbffd26ce1f6302a85564d06d55",
+    "content-hash": "67dcb4c71b5a9282dcd060d59f3a4ce5",
     "packages": [
         {
             "name": "composer/installers",
@@ -580,15 +580,15 @@
         },
         {
             "name": "wpackagist-plugin/tweet-old-post",
-            "version": "7.4.8",
+            "version": "7.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tweet-old-post/",
-                "reference": "tags/7.4.8"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tweet-old-post.7.4.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/tweet-old-post.zip?timestamp=1505312992",
                 "reference": null,
                 "shasum": null
             },
