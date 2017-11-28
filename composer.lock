@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66868f9cf803b01122d34a2a6cc7c204",
+    "content-hash": "6287fb43b758307fcc883ed8eb19d2b1",
     "packages": [
         {
             "name": "composer/installers",
@@ -4597,26 +4597,6 @@
                 "wordpress"
             ],
             "time": "2017-11-01T15:10:46+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/meetup-widgets",
-            "version": "2.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/meetup-widgets/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/meetup-widgets.zip?timestamp=1452135381",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/meetup-widgets/"
         },
         {
             "name": "wpackagist-theme/twentyseventeen",
