@@ -45,29 +45,16 @@ Access doc][service-access] to see who can give it to you.)
    [meetup-widget-changes]: https://github.com/ryelle/Meetup-Widgets/compare/master...patcon:civictechto
    [about-composer]: https://roots.io/using-composer-with-wordpress/
 
-## Getting Started
+### Projects page
 
-### 1. Spin-up a site
+The [Projects page][projects-page] is a little special. It is
+automatically generated and updated from the ["Hacknight Projects"
+Trello board][projects-board], using projects specifically tagged with
+the `Website Featured` label.
 
-If you do not yet have a Pantheon account, you can create one for free. Once you've verified your email address, you will be able to add sites from your dashboard. Choose "WordPress" to use this distribution.
+Source Code: [`projects.php`][projects-php] [`projects.js`][projects-js]
 
-### 2. Load up the site
-
-When the spin-up process is complete, you will be redirected to the site's dashboard. Click on the link under the site's name to access the Dev environment.
-
-![alt](http://i.imgur.com/2wjCj9j.png?1, '')
-
-### 3. Run the WordPress installer
-
-How about the WordPress database config screen? No need to worry about database connection information as that is taken care of in the background. The only step that you need to complete is the site information and the installation process will be complete.
-
-We will post more information about how this works but we recommend developers take a look at `wp-config.php` to get an understanding.
-
-![alt](http://i.imgur.com/4EOcqYN.png, '')
-
-If you would like to keep a separate set of configuration for local development, you can use a file called `wp-config-local.php`, which is already in our .gitignore file.
-
-### 4. Enjoy!
-
-![alt](http://i.imgur.com/fzIeQBP.png, '')
-
+   [projects-page]: http://dev-civictechto.pantheonsite.io/projects/
+   [projects-board]: https://trello.com/b/EVvNEGK5/hacknight-projects
+   [projects-php]: web/wp-content/themes/custom/zerif-lite-child/projects.php
+   [projects-js]: web/wp-content/themes/custom/zerif-lite-child/js/projects.js
