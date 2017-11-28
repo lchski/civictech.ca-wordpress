@@ -471,28 +471,6 @@
         "homepage": "https://wordpress.org/plugins/exclude-pages/"
     },
     {
-        "name": "wpackagist-plugin/google-analyticator",
-        "version": "6.5.3",
-        "version_normalized": "6.5.3.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/google-analyticator/",
-            "reference": "tags/6.5.3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/google-analyticator.6.5.3.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/google-analyticator/"
-    },
-    {
         "name": "wpackagist-plugin/iframe",
         "version": "4.3",
         "version_normalized": "4.3.0.0",
@@ -758,5 +736,27 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
+    },
+    {
+        "name": "wpackagist-plugin/google-analyticator",
+        "version": "6.5.4",
+        "version_normalized": "6.5.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/google-analyticator/",
+            "reference": "tags/6.5.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/google-analyticator.6.5.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/google-analyticator/"
     }
 ]

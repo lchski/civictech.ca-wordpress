@@ -460,15 +460,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analyticator",
-            "version": "6.5.3",
+            "version": "6.5.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analyticator/",
-                "reference": "tags/6.5.3"
+                "reference": "tags/6.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analyticator.6.5.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analyticator.6.5.4.zip",
                 "reference": null,
                 "shasum": null
             },
