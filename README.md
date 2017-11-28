@@ -10,7 +10,7 @@ Toronto** website on the [Pantheon platform](https://pantheon.io).
 Our experimental development site is hosted at:
 https://dev-civictechto.pantheonsite.io
 
-The Panthon dashboard is here:
+The Pantheon dashboard is here:
 https://dashboard.pantheon.io/sites/2719de9e-f8ef-44d0-9627-bc83e50bd0e2
 
 You'll need to ask for access to the dashboard. (Check our [Service
@@ -26,7 +26,7 @@ Access doc][service-access] to see who can give it to you.)
 
 ## File Organization
 
-- Theme customizations are stores in
+- Theme customizations are stored in
   [`web/wp-content/themes/custom/zerif-lite-child`][child-theme]
 - We are using a custom version of the [Meetup Widgets
   plugin][meetup-widget]. (See [changes][meetup-plugin-changes])
