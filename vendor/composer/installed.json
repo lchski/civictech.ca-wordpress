@@ -493,28 +493,6 @@
         "homepage": "https://wordpress.org/plugins/iframe/"
     },
     {
-        "name": "wpackagist-plugin/mailchimp-for-wp",
-        "version": "4.1.4",
-        "version_normalized": "4.1.4.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-            "reference": "tags/4.1.4"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.1.4.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
-    },
-    {
         "name": "wpackagist-plugin/storify",
         "version": "1.0.9",
         "version_normalized": "1.0.9.0",
@@ -758,5 +736,27 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/updraftplus/"
+    },
+    {
+        "name": "wpackagist-plugin/mailchimp-for-wp",
+        "version": "4.1.11",
+        "version_normalized": "4.1.11.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+            "reference": "tags/4.1.11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.1.11.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
     }
 ]
