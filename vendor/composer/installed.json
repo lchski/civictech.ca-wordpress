@@ -405,31 +405,6 @@
         "homepage": "https://wordpress.org/themes/zerif-lite/"
     },
     {
-        "name": "patcon/meetup-widgets",
-        "version": "dev-civictechto",
-        "version_normalized": "dev-civictechto",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/patcon/Meetup-Widgets.git",
-            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/patcon/Meetup-Widgets/zipball/1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
-            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
-            "shasum": ""
-        },
-        "require": {
-            "composer/installers": "*"
-        },
-        "time": "2017-11-27T21:35:50+00:00",
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "support": {
-            "source": "https://github.com/patcon/Meetup-Widgets/tree/civictechto"
-        }
-    },
-    {
         "name": "wpackagist-plugin/add-meta-tags",
         "version": "2.11.3",
         "version_normalized": "2.11.3.0",
@@ -584,28 +559,6 @@
         "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
     },
     {
-        "name": "wpackagist-plugin/redirection",
-        "version": "2.7.3",
-        "version_normalized": "2.7.3.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/redirection/",
-            "reference": "tags/2.7.3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/redirection.2.7.3.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/redirection/"
-    },
-    {
         "name": "wpackagist-plugin/storify",
         "version": "1.0.9",
         "version_normalized": "1.0.9.0",
@@ -758,5 +711,52 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
+    },
+    {
+        "name": "wpackagist-plugin/redirection",
+        "version": "2.10.1",
+        "version_normalized": "2.10.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/redirection/",
+            "reference": "tags/2.10.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/redirection.2.10.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/redirection/"
+    },
+    {
+        "name": "patcon/meetup-widgets",
+        "version": "dev-civictechto",
+        "version_normalized": "dev-civictechto",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/patcon/Meetup-Widgets.git",
+            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/patcon/Meetup-Widgets/zipball/1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
+            "reference": "1a2de8cdd3a9042f438cd60d2abfc40b772cb993",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*"
+        },
+        "time": "2017-11-27T21:35:50+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "support": {
+            "source": "https://github.com/patcon/Meetup-Widgets/tree/civictechto"
+        }
     }
 ]

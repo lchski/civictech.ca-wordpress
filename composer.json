@@ -27,12 +27,12 @@
     "rvtraveller/qs-composer-installer": "^1.1",
     "vlucas/phpdotenv": "^2.4.0",
     "wpackagist-plugin/add-meta-tags": "2.11.3",
-    "wpackagist-plugin/akismet": "3.3.2",
+    "wpackagist-plugin/akismet": "^3.3.2",
     "wpackagist-plugin/exclude-pages": "1.92",
-    "wpackagist-plugin/google-analyticator": "6.5.3",
+    "wpackagist-plugin/google-analyticator": "^6.5.3",
     "wpackagist-plugin/iframe": "4.3",
-    "wpackagist-plugin/mailchimp-for-wp": "4.1.4",
-    "wpackagist-plugin/redirection": "2.7.3",
+    "wpackagist-plugin/mailchimp-for-wp": "^4.1.4",
+    "wpackagist-plugin/redirection": "^2.7.3",
     "wpackagist-plugin/storify": "1.0.9",
     "wpackagist-plugin/tweet-old-post": "7.4.8",
     "wpackagist-plugin/updraftplus": "1.13.4",
@@ -72,7 +72,6 @@
       ]
     },
     "installer-paths": {
-      "web/wp-content/plugins/custom/{$name}/": ["patcon/meetup-widgets"],
       "web/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/wp-content/themes/{$name}/": ["type:wordpress-theme"],
       "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
